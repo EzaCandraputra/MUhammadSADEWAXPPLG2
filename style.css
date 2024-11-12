@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img{
+    width: 200px;
+    display: flex ;
+    align-items: center;
+    margin-left: 20px;
+ }
+ 
+ header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.iconshop img{
+    width: 40px;
+    height: 40px;
+}
+
+.kosongan{
+    height: 3rem;
+}
+
+main img{
+     width: 100%;
+     height: 500px;
+}
+
+.cosongan{
+    height: 2rem;
+}
+
+main .tulis{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 179, 219);
+}
+
+main .pupu img{
+    height: 30%;
+}
+
+.Apa{
+    height: 1rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    width: 620px;
+    height: 620px;
+    border: 1px solid gray;
+}
+
+.paragraf{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+}
+
+.gg{
+    width: 100%;
+    height: 100%;
+    border: 1px solid gray;
+}
